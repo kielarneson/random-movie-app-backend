@@ -39,8 +39,7 @@ GET http://localhost:3000/comedies.json
 ### Crimes index
 GET http://localhost:3000/crimes.json
 
-### Dramas index
-GET http://localhost:3000/dramas.json
+
 
 
 
