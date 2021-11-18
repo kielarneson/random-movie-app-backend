@@ -1,0 +1,47 @@
+### Movies index
+GET http://localhost:3000/movies
+
+### Movies create
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title": "Test title",
+  "year": "Test year",
+  "rated": "Test rated",
+  "released": "Test released",
+  "runtime": "Test runtime",
+  "formatted_runtime": "Test formatted runtime",
+  "actors": "Test actors",
+  "awards": "Test awards",
+  "box_office": "Test box office",
+  "director": "Test director",
+  "genre": "Test genre",
+  "language": "Test language",
+  "plot": "Test plot",
+  "poster": "Test poster",
+  "entertainment_type": "Test entertainment type",
+  "writer": "Test writer",
+  "imdb_id": "Test imdb id",
+  "imdb_rating": "Test imdb rating",
+  "imdb_votes": "Test imdb voters"
+}
+
+### Movies show
+GET http://localhost:3000/movies/Deliverance
+
+### Actions index
+GET http://localhost:3000/actions.json
+
+### Comedies index
+GET http://localhost:3000/comedies.json
+
+### Crimes index
+GET http://localhost:3000/crimes.json
+
+### Dramas index
+GET http://localhost:3000/dramas.json
+
+
+
+
