@@ -33,6 +33,9 @@ GET http://localhost:3000/movies/Deliverance
 ### Actions index
 GET http://localhost:3000/actions.json
 
+### Biographies index
+GET http://localhost:3000/biographies.json
+
 ### Comedies index
 GET http://localhost:3000/comedies.json
 
