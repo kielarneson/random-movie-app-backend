@@ -16,4 +16,6 @@ Rails.application.routes.draw do
   get "/documentaries" => "documentaries#index"
 
   get "/dramas" => "dramas#index"
+
+  get "/families" => "families#index"
 end
