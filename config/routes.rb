@@ -20,4 +20,6 @@ Rails.application.routes.draw do
   get "/families" => "families#index"
 
   get "/horrors" => "horrors#index"
+
+  get "/romances" => "romances#index"
 end

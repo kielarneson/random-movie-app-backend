@@ -57,5 +57,8 @@ GET http://localhost:3000/families.json
 ### Horrors index
 GET http://localhost:3000/horrors.json
 
+### Romances index
+GET http://localhost:3000/romances.json
+
 
 
