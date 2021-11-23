@@ -60,5 +60,8 @@ GET http://localhost:3000/horrors.json
 ### Romances index
 GET http://localhost:3000/romances.json
 
+### Sci-Fis index
+GET http://localhost:3000/scifis.json
+
 
 
