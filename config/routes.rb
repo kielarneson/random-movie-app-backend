@@ -24,4 +24,6 @@ Rails.application.routes.draw do
   get "/romances" => "romances#index"
 
   get "/scifis" => "scifis#index"
+
+  get "/sports" => "sports#index"
 end

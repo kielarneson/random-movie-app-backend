@@ -63,5 +63,8 @@ GET http://localhost:3000/romances.json
 ### Sci-Fis index
 GET http://localhost:3000/scifis.json
 
+### Sports index
+GET http://localhost:3000/sports.json
+
 
 
