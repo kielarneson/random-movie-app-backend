@@ -4,9 +4,95 @@ class MoviesController < ApplicationController
 
     # This is generating the random movie
     # Need to move the random aspect to a route other than index. Maybe random?
-    movie = movies.sample
 
-    render json: movie
+    # movie = movies.sample
+
+    # Seeing how different genres of movies are currently represented in my database
+    action_count = 0
+    comedy_count = 0
+    documentary_count = 0
+    drama_count = 0
+    family_count = 0
+    horror_count = 0
+    romance_count = 0
+    scifi_count = 0
+    sports_count = 0
+    thriller_count = 0
+
+    movies.each do |movie|
+      if movie.genre.include?("Action")
+        action_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Comedy")
+        comedy_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Documentary")
+        documentary_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Drama")
+        drama_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Family")
+        family_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Horror")
+        horror_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Romance")
+        romance_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Sci-Fi")
+        scifi_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Sport")
+        sports_count += 1
+      end
+    end
+
+    movies.each do |movie|
+      if movie.genre.include?("Thriller")
+        thriller_count += 1
+      end
+    end
+
+    render json: {
+      action_count: action_count,
+      comedy_count: comedy_count,
+      documentary_count: documentary_count,
+      drama_count: drama_count,
+      family_count: family_count,
+      horror_count: horror_count,
+      romance_count: romance_count,
+      scifi_count: scifi_count,
+      sports_count: sports_count,
+      thriller_count: thriller_count,
+    }
+
+    # render json: movie
   end
 
   def create

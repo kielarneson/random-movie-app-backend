@@ -1,5 +1,5 @@
 ### Movies index
-GET http://localhost:3000/movies
+GET http://localhost:3000/movies.json
 
 ### Movies create
 POST http://localhost:3000/movies
@@ -32,6 +32,9 @@ GET http://localhost:3000/movies/Deliverance
 
 ### Action Comedies index
 GET http://localhost:3000/action_comedies.json
+
+### Action Dramas index
+GET http://localhost:3000/action_dramas.json
 
 ### Actions index
 GET http://localhost:3000/actions.json

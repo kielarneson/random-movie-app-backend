@@ -1,22 +1,27 @@
 class DramasController < ApplicationController
-
-  # Have to make a decision here if I want to show movies that have Drama included
-  # amongst other genres, or just movies whose only genre is Drama
+  # Decided to include all movies that include 'Drama' to be consistent with other filters
   def index
-    # movies = Movie.all
+    movies = Movie.all
 
-    # dramas = []
+    dramas = []
 
-    # movies.each do |movie|
-    #   if movie.genre.include?("Drama")
-    #     dramas << movie
-    #   end
-    # end
-
-    dramas = Movie.where(genre: "Drama")
+    movies.each do |movie|
+      if movie.genre.include?("Drama")
+        dramas << movie
+      end
+    end
 
     drama = dramas.sample
 
     render json: drama
+
+    #
+    # Returns movies where 'Drama' is the only genre
+    # dramas = Movie.where(genre: "Drama")
+
+    # drama = dramas.sample
+
+    # render json: drama
+    #
   end
 end

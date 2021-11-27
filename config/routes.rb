@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get "/action_comedies" => "action_comedies#index"
 
+  get "/action_dramas" => "action_dramas#index"
+
   get "/actions" => "actions#index"
 
   get "/biographies" => "biographies#index"
