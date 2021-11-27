@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get "/movies/:title" => "movies#show"
 
   get "/action_comedies" => "action_comedies#index"
+  get "/action_documentaries" => "action_documentaries#index"
   get "/action_dramas" => "action_dramas#index"
   get "/action_families" => "action_families#index"
   get "/action_horrors" => "action_horrors#index"
