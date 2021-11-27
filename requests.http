@@ -53,6 +53,9 @@ GET http://localhost:3000/action_scifis.json
 ### Action Sports index
 GET http://localhost:3000/action_sports.json
 
+### Action Thrillers index
+GET http://localhost:3000/action_thrillers.json
+
 ### Actions index
 GET http://localhost:3000/actions.json
 

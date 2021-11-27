@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get "/action_romances" => "action_romances#index"
   get "/action_scifis" => "action_scifis#index"
   get "/action_sports" => "action_sports#index"
+  get "/action_thrillers" => "action_thrillers#index"
 
   get "/actions" => "actions#index"
 
