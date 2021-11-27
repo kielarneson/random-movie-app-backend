@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "/action_families" => "action_families#index"
   get "/action_horrors" => "action_horrors#index"
   get "/action_romances" => "action_romances#index"
+  get "/action_scifis" => "action_scifis#index"
 
   get "/actions" => "actions#index"
 
