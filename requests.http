@@ -42,6 +42,9 @@ GET http://localhost:3000/action_families.json
 ### Action Horrors index
 GET http://localhost:3000/action_horrors.json
 
+### Action Romances index
+GET http://localhost:3000/action_romances.json
+
 ### Actions index
 GET http://localhost:3000/actions.json
 
