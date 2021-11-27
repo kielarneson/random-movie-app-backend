@@ -26,6 +26,6 @@ class FamiliesController < ApplicationController
     # All in one line
     # family_movies = movies.select { |movie| movie.genre.include?("Family") }.sort_by { |movie| movie["metacritic_rating"].slice(0..2) }.reverse
 
-    render json: family_movies
+    render json: family_movie
   end
 end
