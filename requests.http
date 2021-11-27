@@ -32,38 +32,14 @@ GET http://localhost:3000/movies/Deliverance
 
 ### ACTION MOVIE REQUESTS
 
-### Action Comedies index
-GET http://localhost:3000/action_comedies.json
-
-### Action Documentaries index
-GET http://localhost:3000/action_documentaries.json
-
-### Action Dramas index
-GET http://localhost:3000/action_dramas.json
-
-### Action Families index
-GET http://localhost:3000/action_families.json
-
-### Action Horrors index
-GET http://localhost:3000/action_horrors.json
-
-### Action Romances index
-GET http://localhost:3000/action_romances.json
-
-### Action Sci-Fis index
-GET http://localhost:3000/action_scifis.json
-
-### Action Sports index
-GET http://localhost:3000/action_sports.json
-
-### Action Thrillers index
-GET http://localhost:3000/action_thrillers.json
-
-### Actions index
+### Action movie index
 GET http://localhost:3000/action_movies.json
 
-### Actions index
+### Action-Comedy movie index
 GET http://localhost:3000/action_movies/comedy.json
+
+### Action-Drama movie index
+GET http://localhost:3000/action_movies/drama.json
 
 ###
 
