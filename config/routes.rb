@@ -3,22 +3,25 @@ Rails.application.routes.draw do
   post "/movies" => "movies#create"
   get "/movies/:title" => "movies#show"
 
-  get "/action_comedies" => "action_comedies#index"
-  get "/action_documentaries" => "action_documentaries#index"
-  get "/action_dramas" => "action_dramas#index"
-  get "/action_families" => "action_families#index"
-  get "/action_horrors" => "action_horrors#index"
-  get "/action_romances" => "action_romances#index"
-  get "/action_scifis" => "action_scifis#index"
-  get "/action_sports" => "action_sports#index"
-  get "/action_thrillers" => "action_thrillers#index"
+  # All Action movie combinations
+  # get "/action_comedies" => "action_comedies#index"
+  # get "/action_documentaries" => "action_documentaries#index"
+  # get "/action_dramas" => "action_dramas#index"
+  # get "/action_families" => "action_families#index"
+  # get "/action_horrors" => "action_horrors#index"
+  # get "/action_romances" => "action_romances#index"
+  # get "/action_scifis" => "action_scifis#index"
+  # get "/action_sports" => "action_sports#index"
+  # get "/action_thrillers" => "action_thrillers#index"
+  get "/action_movies" => "action_movies#index"
+  get "/actions/comedy" => "actions#comedy"
 
-  get "/actions" => "actions#index"
-
+  # NOT CURRENTLY BEING USED ON FRONTEND
   get "/biographies" => "biographies#index"
 
   get "/comedies" => "comedies#index"
 
+  # NOT CURRENTLY BEING USED ON FRONTEND
   get "/crimes" => "crimes#index"
 
   get "/documentaries" => "documentaries#index"

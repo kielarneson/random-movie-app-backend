@@ -60,17 +60,20 @@ GET http://localhost:3000/action_sports.json
 GET http://localhost:3000/action_thrillers.json
 
 ### Actions index
-GET http://localhost:3000/actions.json
+GET http://localhost:3000/action_movies.json
+
+### Actions index
+GET http://localhost:3000/action_movies/comedy.json
 
 ###
 
-### Biographies index
+### NOT CURRENTLY BEING USED ON FRONTEND / Biographies index
 GET http://localhost:3000/biographies.json
 
 ### Comedies index
 GET http://localhost:3000/comedies.json
 
-### Crimes index
+### NOT CURRENTLY BEING USED ON FRONTEND / Crimes index
 GET http://localhost:3000/crimes.json
 
 ### Documentaries index
