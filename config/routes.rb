@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   post "/movies" => "movies#create"
   get "/movies/:title" => "movies#show"
 
-  get "/action_biographies" => "action_biographies#index"
   get "/action_comedies" => "action_comedies#index"
   get "/action_dramas" => "action_dramas#index"
   get "/action_families" => "action_families#index"
