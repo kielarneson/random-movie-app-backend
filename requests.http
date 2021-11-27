@@ -30,6 +30,8 @@ Content-Type: application/json
 ### Movies show
 GET http://localhost:3000/movies/Deliverance
 
+### ACTION MOVIE REQUESTS
+
 ### Action Comedies index
 GET http://localhost:3000/action_comedies.json
 
@@ -48,8 +50,13 @@ GET http://localhost:3000/action_romances.json
 ### Action Sci-Fis index
 GET http://localhost:3000/action_scifis.json
 
+### Action Sports index
+GET http://localhost:3000/action_sports.json
+
 ### Actions index
 GET http://localhost:3000/actions.json
+
+###
 
 ### Biographies index
 GET http://localhost:3000/biographies.json
