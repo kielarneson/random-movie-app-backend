@@ -32,6 +32,7 @@ class ActionMoviesController < ApplicationController
   end
 
   def drama
+    # Drama action working
     movies = Movie.all
 
     action_dramas = []
